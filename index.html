@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Shippori+Antique&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" media="(max-width: 600px)" href="./mobile.css">
+  <title>Siam || Website</title>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <nav>
+        <div class="logo">
+          <h1>SIAM</h1>
+        </div>
+        <ul>
+          <li><a href="#" class="active">Home</a></li>
+          <li><a href="#" class="">Services</a></li>
+          <li><a href="#" class="">Contact</a></li>
+          <li><a href="#" class="">Explore</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <div class="text-container">
+        <h1 id="title">Hello, I'm <span style="color:orange;" id="titleType"></span></h1>
+        <h2 id="sub-title">Learn Something New</h2>
+        <p id="para">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut rerum accusantium hic animi sapiente nulla, dolore odio, doloribus non dicta impedit laborum possimus molestias nostrum sed, eum pariatur officiis laudantium.</p>
+        <button id="btn1" data-tilt data-tilt-scale="1.1">Log in</button>
+        <button id="btn2" data-tilt data-tilt-scale="1.1">Sing Up</button>
+      </div>
+    </main>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.7.2/vanilla-tilt.min.js" integrity="sha512-K9tDZvc8nQXR1DMuT97sct9f40dilGp97vx7EXjswJA+/mKqJZ8vcZLifZDP+9t08osMLuiIjd4jZ0SM011Q+w==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script>
+    var typed = new Typed('#titleType', {
+      strings: ['Siam', 'a coder','a student'],
+      smartBackspace: true,
+      loop:true,
+      typeSpeed: 80,
+      startDelay:40,
+      backSpeed:80
+    });
+  </script>
+</body>
+</html>

@@ -1,0 +1,21 @@
+nav {
+  height: 15vh;
+  flex-direction: column;
+  padding: 0.8rem 0;
+  margin: 0;
+  ul li {
+    margin: 0 0.8rem;
+  }
+}
+.text-container {
+  margin-top:20% !important;
+  #title {
+    font-size: 2.4rem;
+  }
+  #sub-title {
+    font-size: 1.5rem;
+  }
+  #para {
+    width: 90%;
+  }
+}
